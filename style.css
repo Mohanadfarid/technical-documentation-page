@@ -33,7 +33,7 @@ nav ul {
   padding: 0;
 }
 
-nav ul li a {
+nav .nav-link {
   display: block;
   padding: 10px 0 10px 30px;
   border-top: 1px solid #4d4e53;
