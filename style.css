@@ -10,6 +10,7 @@ body {
   padding: 0;
   display: flex;
   width: 100vw;
+  overflow-x: hidden;
 }
 nav {
   overflow: scroll;
@@ -36,10 +37,38 @@ nav ul li a {
   border-top: 1px solid #4d4e53;
   color: #4d4e53;
   text-decoration: none;
-
-
 }
 
-main {
-  margin-left: 350px;
+#main-doc {
+  position: absolute;
+  right: 0;
+  margin-left: 300px;
+  padding-right: 20px;
+  width: calc(100vw - 350px);
+}
+main h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+}
+.main-section {
+  color: #4d4e53;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.main-section main{
+  padding-left: 20px;
+}
+.main-section ul {
+  padding-left: 60px;
+}
+.main-section ul li{
+  margin: 10px 0;
+}
+code{
+  display: block;
+  padding: 20px;
+  width: 95%;
+  margin: auto;
+  background-color: #f7f7f7;
 }
